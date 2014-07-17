@@ -13,9 +13,10 @@ namespace HandsOnEF.Models
         public int PositionId { get; set; }
         public int DepartmentId { get; set; }
 
+        //Navigation properties
         public virtual Department Department { get; set; }
         public virtual Position Position { get; set; }
-        public virtual Timesheet Timesheets { get; set; }
+        public virtual Timesheet Timesheet { get; set; }
 
     }
 }
