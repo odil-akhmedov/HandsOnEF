@@ -12,11 +12,11 @@ namespace HandsOnEF.Models
         public string Last { get; set; }
         public int PositionId { get; set; }
         public int DepartmentId { get; set; }
-
+        //public int TimesheetId { get; set; }
         //Navigation properties
         public virtual Department Department { get; set; }
         public virtual Position Position { get; set; }
-        public virtual Timesheet Timesheet { get; set; }
+        //public virtual Timesheet Timesheet { get; set; }
 
     }
 }

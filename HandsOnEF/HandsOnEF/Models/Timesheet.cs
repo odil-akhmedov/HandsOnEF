@@ -11,6 +11,7 @@ namespace HandsOnEF.Models
         public DateTime Date { get; set; }
         public DateTime TimeIn { get; set; }
         public DateTime TimeOut { get; set; }
+        public int EmployeeId { get; set; }
         //Navigation properties
         public virtual Employee Employee { get; set; }
 
