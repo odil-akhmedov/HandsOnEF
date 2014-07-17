@@ -9,11 +9,12 @@ namespace HandsOnEF.Models
     {
         public int EmployeeId { get; set; }
         public string First { get; set; }
-        public string Las { get; set; }
+        public string Last { get; set; }
         public int PositionId { get; set; }
         public int DepartmentId { get; set; }
 
         public virtual Department Department { get; set; }
+        public virtual Position Positions { get; set; }
 
     }
 }
