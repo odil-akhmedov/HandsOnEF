@@ -13,5 +13,5 @@ namespace HandsOnEF.Models
 
         public virtual ICollection<Employee> Employees { get; set; }
 
-     }
+    }
 }

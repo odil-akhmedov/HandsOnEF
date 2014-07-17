@@ -14,7 +14,8 @@ namespace HandsOnEF.Models
         public int DepartmentId { get; set; }
 
         public virtual Department Department { get; set; }
-        public virtual Position Positions { get; set; }
+        public virtual Position Position { get; set; }
+        public virtual Timesheet Timesheets { get; set; }
 
     }
 }

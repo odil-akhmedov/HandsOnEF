@@ -12,6 +12,6 @@ namespace HandsOnEF.Models
 
         //Navigation Properties
         public virtual ICollection<Employee> Employees { get; set; }
-    
+
     }
 }
